@@ -11,4 +11,3 @@ pillow
 opencv-python
 mtcnn
 numpy==1.19.5
-sklearn
