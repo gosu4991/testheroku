@@ -12,7 +12,7 @@ from mtcnn.mtcnn import MTCNN
 import numpy as np
 from PIL import Image
 import pickle
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 
 def get_embedding(model, face_pixels):
 	# scale pixel values
