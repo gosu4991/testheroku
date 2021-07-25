@@ -34,7 +34,7 @@ def predict(fname):
 
         # %cd /content/drive/My\ Drive/Colab\ Notebooks/who
 
-        facenet_model = load_model('facenet_keras.h5',compile=False)
+        facenet_model = load_model('facenet_keras.h5')
         detector = MTCNN()
         dest_size = (160, 160)
 
