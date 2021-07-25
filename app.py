@@ -28,20 +28,8 @@ class Hello(Resource):
 
 
 
-
-class Image(Resource):
-
-    def post(self):
-        args = parser.parse_args()
-        the_file = args['file']
-        # save a temporary copy of the file
-        ofile, ofname = tempfile.mkstemp()
-        the_file.save(ofname)
-
-        return predict(ofname)
-
 api.add_resource(Hello, '/hello')
-api.add_resource(Image, '/image')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
