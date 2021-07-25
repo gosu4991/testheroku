@@ -11,5 +11,4 @@ pillow
 opencv-python
 mtcnn
 numpy
-pickle
 sklearn
