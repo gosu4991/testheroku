@@ -1,5 +1,4 @@
 scikit-learn
-mtcnn
 opencv-python-headless
 absl-py==0.13.0
 aniso8601==9.0.1
