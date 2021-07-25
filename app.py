@@ -42,24 +42,6 @@ class Image(Resource):
 
 
 
-# routes
-@app.route("/index.html", methods=['GET', 'POST'])
-def main():
-    return render_template("index.html")
-
-@app.route("/submit", methods = ['POST'])
-def get_output():
-    if request.method == 'POST':
-        img = request.files['my_image']
-        img_path = "static/" + img.filename
-        files = {'file': img.read()}
-        prediction = requests.post(url,files=files)
-        img.save(img_path) 
-        data = prediction.content
-        json_data = json.loads(data)
-
-
-    return render_template("index.html",data=json_data, img_path = img_path)
 
 api.add_resource(Hello, '/hello')
 api.add_resource(Image, '/image')
