@@ -1,7 +1,7 @@
 gunicorn
 mtcnn
 scikit-learn==0.22.2.post1
-opencv-python-headless
+opencv-python
 Flask
 gunicorn
 Tensorflow-cpu
