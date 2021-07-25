@@ -34,7 +34,7 @@ def predict(fname):
 
         # %cd /content/drive/My\ Drive/Colab\ Notebooks/who
 
-        facenet_model = load_model('facenet_keras.h5')
+        facenet_model = load_model('facenet_keras.h5',compile=False)
         detector = MTCNN()
         dest_size = (160, 160)
 
@@ -121,4 +121,5 @@ def predict(fname):
             print("Không thể nhận dạng file: ")
 
 if __name__ == '__main__':
-       import pprint
+       # print(predict("data/test/Tran Canh Xuan B1706970.jpg"))
+       print(predict("data/test/Dao Minh Khoa.png"))
