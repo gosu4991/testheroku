@@ -1,4 +1,4 @@
-sklearn==0.22.2
+scikit-learn==0.24.2
 absl-py==0.13.0
 aniso8601==9.0.1
 astunparse==1.6.3
