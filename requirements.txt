@@ -10,5 +10,5 @@ Werkzeug
 pillow
 opencv-python
 mtcnn
-numpy
+numpy==1.19.5
 sklearn
