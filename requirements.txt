@@ -3,7 +3,6 @@ mtcnn
 scikit-learn
 opencv-python-headless
 Flask
-gunicorn
 Tensorflow-cpu
 flask-restful
 click
