@@ -1,8 +1,7 @@
 gunicorn
-libgl1-mesa-glx
 mtcnn
 scikit-learn==0.22.2.post1
-opencv-python
+opencv-python-headless
 Flask
 gunicorn
 Tensorflow-cpu
