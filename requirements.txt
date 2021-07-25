@@ -8,7 +8,7 @@ Jinja2
 MarkupSafe
 Werkzeug
 pillow
-openvn-python
+opencv-python
 mtcnn
 numpy
 pickle
