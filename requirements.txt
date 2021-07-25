@@ -1,6 +1,6 @@
 gunicorn
 mtcnn
-scikit-learn==0.22.2.post1
+scikit-learn
 opencv-python-headless
 Flask
 gunicorn
