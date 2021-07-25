@@ -1,6 +1,6 @@
 scikit-learn
 mtcnn
-opencv-python-headless==4.2.0.32
+opencv-python-headless
 Pillow
 Flask
 gunicorn
